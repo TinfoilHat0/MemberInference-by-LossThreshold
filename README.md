@@ -4,7 +4,7 @@ This is a minimal implementation of [loss thresholding attack](https://arxiv.org
 Briefly, we have a threshold **T** (e.g., avg. training loss), and we predict a sample 'member' if sample loss < **T**.
 
 
-Attack code is in ```src/attacks.py``` and some results on common image datasets (averaged over 5 runs) are as follows.
+Attack code is in ```src/attacks.py``` and some results on common image datasets (averaged over 5 runs) are as follows. Note that, baseline attack (balanced) acc. is 50%.
 
 | Dataset | Test Acc (%) | Generalization Gap (%) |  MIA Balanced Acc. (%)
 | ------------- | ------------- | ------------- | ------------- | 
