@@ -1,6 +1,6 @@
 # MemberInference-by-LossThreshold
 
-This is a minimal implementation of [loss thresholding attack](https://arxiv.org/abs/1709.01604) to infer membership status (i.e., part of training data or not) of data samples.
+This is a minimal implementation (in Pytorch 1.11) of [loss thresholding attack](https://arxiv.org/abs/1709.01604) to infer membership status (i.e., part of training data or not) of data samples.
 Briefly, we have a threshold **T** (e.g., avg. training loss), and we predict a sample 'member' if sample loss < **T**.
 
 
