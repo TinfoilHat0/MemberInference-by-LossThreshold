@@ -4,7 +4,7 @@ This is a minimal implementation (in Pytorch 1.11) of [loss thresholding attack]
 Briefly, we have a threshold **T** (e.g., avg. training loss), and we predict a sample 'member' if sample loss < **T**.
 
 
-Attack code is in ```src/attacks.py``` and some results on common image datasets (averaged over 5 runs) are as follows. Note that, baseline balanced acc. is 50%.
+Attack code is in ```src/attacks.py``` and some results on common image datasets (averaged over 5 runs) are as follows. Note that, baseline balanced acc. is 50% for MIA.
 
 | Dataset | Test Acc (%) | Generalization Gap (%) |  MIA Balanced Acc. (%)
 | ------------- | ------------- | ------------- | ------------- | 
