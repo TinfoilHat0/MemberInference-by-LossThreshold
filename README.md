@@ -8,8 +8,8 @@ Attack code is in ```src/attacks.py``` and some results on common image datasets
 
 | Dataset | Model | Test Acc (%) | Generalization Gap (%) |  MIA Balanced Acc. (%)
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| MNIST  | LeNet5 |99.2 ± 0.05 | 0.76 ± 0.04 | 50.34% ± 0.1 |
-| Fashion-MNIST | LeNet5 | 90.77 ± 0.11  | 5.02 ± 0.63 | 51.85 ± 0.16 |
+| MNIST  | LeNet |99.2 ± 0.05 | 0.76 ± 0.04 | 50.34% ± 0.1 |
+| Fashion-MNIST | LeNet | 90.77 ± 0.11  | 5.02 ± 0.63 | 51.85 ± 0.16 |
 | CIFAR-10  | ResNet20| 87.25 ± 0.39  | 6.8 ± 0.8 | 52.47 ± 0.42 |
 
 Simply run ```src/runner.sh``` to generate logs, and then run ```notebooks/tensorboard_log_reader.ipynb``` to average the results of logs. 
